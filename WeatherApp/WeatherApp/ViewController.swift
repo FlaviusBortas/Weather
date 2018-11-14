@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Test")
         print("new test")
+        print("3")
     }
 
 
