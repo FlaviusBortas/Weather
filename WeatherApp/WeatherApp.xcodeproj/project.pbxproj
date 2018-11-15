@@ -77,6 +77,8 @@
 		EE0E1D2D219CD25C009B3522 = {
 			isa = PBXGroup;
 			children = (
+				EE73A4E8219E06B1007FA262 /* Model */,
+				EE73A4E7219E05AF007FA262 /* View Controllers */,
 				EE0E1D38219CD25C009B3522 /* WeatherApp */,
 				EE0E1D4D219CD25C009B3522 /* WeatherAppTests */,
 				EE0E1D58219CD25C009B3522 /* WeatherAppUITests */,
@@ -123,6 +125,20 @@
 				EE0E1D5B219CD25C009B3522 /* Info.plist */,
 			);
 			path = WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		EE73A4E7219E05AF007FA262 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EE73A4E8219E06B1007FA262 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
