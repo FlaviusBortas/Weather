@@ -77,6 +77,7 @@
 		EE0E1D2D219CD25C009B3522 = {
 			isa = PBXGroup;
 			children = (
+				EE73A4E9219E06DC007FA262 /* View */,
 				EE73A4E8219E06B1007FA262 /* Model */,
 				EE73A4E7219E05AF007FA262 /* View Controllers */,
 				EE0E1D38219CD25C009B3522 /* WeatherApp */,
@@ -139,6 +140,13 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EE73A4E9219E06DC007FA262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
