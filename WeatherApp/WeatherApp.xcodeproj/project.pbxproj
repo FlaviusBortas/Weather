@@ -13,6 +13,7 @@
 		EE0E1D41219CD25C009B3522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0E1D40219CD25C009B3522 /* Assets.xcassets */; };
 		EE0E1D44219CD25C009B3522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0E1D42219CD25C009B3522 /* LaunchScreen.storyboard */; };
 		EE73A4EC21A0B85B007FA262 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE73A4EB21A0B85B007FA262 /* NetworkManager.swift */; };
+		EE73A4EE21A0BAC4007FA262 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE73A4ED21A0BAC4007FA262 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		EE0E1D4A219CD25C009B3522 /* WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0E1D55219CD25C009B3522 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE73A4EB21A0B85B007FA262 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EE73A4ED21A0BAC4007FA262 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		EE73A4E8219E06B1007FA262 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE73A4ED21A0BAC4007FA262 /* WeatherData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				EE73A4EC21A0B85B007FA262 /* NetworkManager.swift in Sources */,
 				EE0E1D3C219CD25C009B3522 /* ViewController.swift in Sources */,
+				EE73A4EE21A0BAC4007FA262 /* WeatherData.swift in Sources */,
 				EE0E1D3A219CD25C009B3522 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
